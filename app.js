@@ -144,12 +144,12 @@ function checkMatch(){
     const optionOneId=cardsChosenIds[0]
     const optionTwoId=cardsChosenIds[1]
     if(optionOneId==optionTwoId){
-        alert("You have clicked the same image!")
+        //alert("You have clicked the same image!")
         cards[optionOneId].setAttribute('src','images/blank.jpg')
         cards[optionTwoId].setAttribute('src','images/blank.jpg')
     }
     else if(cardsChosen[0]===cardsChosen[1]){
-        alert("You have found a match!")
+        //alert("You have found a match!")
         // cards[optionOneId].setAttribute('src','images/white.png')
         // cards[optionTwoId].setAttribute('src','images/white.png')
         cards[optionOneId].style.visibility="hidden";
